@@ -77,7 +77,4 @@ This portfolio is optimized for search engines with:
 5. Social media sharing for increased visibility
 6. Ensure fast page load speed (already optimized with Vite)
 
-## Notes
-- The contact form opens your email client via `mailto:ankitkhatrik6@gmail.com`. No backend setup required.
-- Update the CV link in [src/sections/Hero.jsx](src/sections/Hero.jsx) with your actual CV URL
-- The 404 redirect setup supports React Router on GitHub Pages.
+## Made with ❤️ by Ankit Khatri KC
