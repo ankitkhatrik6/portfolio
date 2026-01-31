@@ -1,0 +1,4 @@
+{
+  "prettier.documentSelectors": ["**/*.css", "**/*.html"],
+  "css.validate": false
+}
