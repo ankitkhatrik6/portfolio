@@ -58,6 +58,25 @@ Wait 24-48 hours for DNS propagation. Your site will be live at https://ankitkha
 - src/data: Portfolio content data
 - src/hooks: Custom hooks
 
+## SEO Optimization
+This portfolio is optimized for search engines with:
+- Comprehensive meta tags (title, description, keywords)
+- Open Graph and Twitter Card meta tags
+- JSON-LD structured data (Schema.org Person markup)
+- Semantic HTML5 elements
+- robots.txt for crawler instructions
+- sitemap.xml for better indexing
+- Fast loading with Vite optimization
+- Mobile-responsive design
+
+**To rank higher on Google:**
+1. Submit sitemap to Google Search Console: https://search.google.com/search-console
+2. Add website to Google My Business (if applicable)
+3. Build quality backlinks (GitHub, LinkedIn, dev.to, medium.com)
+4. Regular content updates (add new projects)
+5. Social media sharing for increased visibility
+6. Ensure fast page load speed (already optimized with Vite)
+
 ## Notes
 - The contact form opens your email client via `mailto:ankitkhatrik6@gmail.com`. No backend setup required.
 - Update the CV link in [src/sections/Hero.jsx](src/sections/Hero.jsx) with your actual CV URL

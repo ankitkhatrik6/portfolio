@@ -26,7 +26,7 @@ const Hero = () => {
               <ArrowRight className="h-4 w-4" />
             </a>
             <a
-              href="https://drive.google.com/file/d/1example/view"
+              href="https://drive.google.com/file/d/1HrHwYK0ClMGh8JySNhcg3hc9MENvCgDV/view?usp=drivesdk"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-6 py-3 text-sm font-semibold text-slate-700 transition hover:-translate-y-0.5 hover:border-primary-300 hover:shadow-glow dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200"
