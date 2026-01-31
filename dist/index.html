@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ankit Khatri KC — Aspiring Full Stack Developer. Portfolio featuring projects, skills, education timeline, and contact information."
+    />
+    <meta
+      name="keywords"
+      content="Ankit Khatri KC, portfolio, full stack developer, React, Tailwind CSS, projects, BSc CSIT"
+    />
+    <meta name="author" content="Ankit Khatri KC" />
+    <meta property="og:title" content="Ankit Khatri KC | Portfolio" />
+    <meta
+      property="og:description"
+      content="Aspiring Full Stack Developer — projects, skills, education, and contact."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://<your-github-username>.github.io/<your-repo-name>/" />
+    <script>
+      (function (location) {
+        if (location.search.startsWith("?/")) {
+          const decoded = location.search
+            .slice(2)
+            .split("&")
+            .map((part) => part.replace(/~and~/g, "&"))
+            .join("?");
+          window.history.replaceState(
+            null,
+            null,
+            location.pathname.replace(/\/$/, "") + "/" + decoded + location.hash
+          );
+        }
+      })(window.location);
+    </script>
+    <title>Ankit Khatri KC | Portfolio</title>
+    <script type="module" crossorigin src="/<your-repo-name>/assets/index-OOVn_h_9.js"></script>
+    <link rel="stylesheet" crossorigin href="/<your-repo-name>/assets/index-zFFtAUDU.css">
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100">
+    <div id="root"></div>
+  </body>
+</html>

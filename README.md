@@ -1,0 +1,64 @@
+# Portfolio
+
+A clean, modern, and fully responsive personal portfolio built with React (Vite), Tailwind CSS, React Router, Lucide icons, and Framer Motion. Optimized for GitHub Pages deployment.
+
+## Tech Stack
+- React (Vite)
+- Tailwind CSS
+- React Router
+- Framer Motion
+- Lucide React
+
+## Getting Started
+1. Install dependencies:
+   - `npm install`
+2. Run the development server:
+   - `npm run dev`
+
+## GitHub Pages Deployment
+
+### 1. Setup Git and Push to GitHub
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/ankitkhatrik6/Portfolio.git
+git push -u origin main
+```
+
+### 2. Deploy to GitHub Pages
+```bash
+npm run deploy
+```
+
+### 3. Configure Custom Domain (ankitkhatri.me)
+
+**In GitHub Repository Settings:**
+1. Go to https://github.com/ankitkhatrik6/Portfolio/settings/pages
+2. Under "Custom domain", enter: `ankitkhatri.me`
+3. Check "Enforce HTTPS" (wait a few minutes for SSL to provision)
+
+**In Your Domain Provider DNS Settings:**
+Add these DNS records:
+```
+Type    Name    Value
+A       @       185.199.108.153
+A       @       185.199.109.153
+A       @       185.199.110.153
+A       @       185.199.111.153
+CNAME   www     ankitkhatrik6.github.io
+```
+
+Wait 24-48 hours for DNS propagation. Your site will be live at https://ankitkhatri.me
+
+## Folder Structure
+- src/components: Reusable UI components
+- src/sections: Home page sections
+- src/data: Portfolio content data
+- src/hooks: Custom hooks
+
+## Notes
+- The contact form opens your email client via `mailto:ankitkhatrik6@gmail.com`. No backend setup required.
+- Update the CV link in [src/sections/Hero.jsx](src/sections/Hero.jsx) with your actual CV URL
+- The 404 redirect setup supports React Router on GitHub Pages.
