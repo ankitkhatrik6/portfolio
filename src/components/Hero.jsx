@@ -94,7 +94,7 @@ export default function Hero() {
           >
             <div className="image-wrapper">
               <div className="image-placeholder">
-                <img src="/portfolio/ankit.png" alt="Ankit Khatri KC" />
+                <img src="/ankit.png" alt="Ankit Khatri KC" />
               </div>
             </div>
           </motion.div>
